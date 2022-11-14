@@ -2,7 +2,6 @@
 ---
 title: "FOS 2020 METABOLOMICS"
 author: "Erik van den Akker & Marian Beekman"
-date: '`r BiocStyle::doc_date()`'
 output:
   pdf_document:
     toc: yes
@@ -32,7 +31,6 @@ suppressPackageStartupMessages({
   library(limma)
   library(ggplot2)  
 })
-BiocStyle::markdown()
 
 rm(list=ls())
 
@@ -144,10 +142,7 @@ On the rows and columns of this heatmap are metabolites. Strong positive correla
 **EXCERCISES**   
 **Q6:** Where do you think are the lipids located in the heatmap?   
 </div>
-```{r,echo=ANSWER}
-## Q6: 
-# The big blue square in the upper right corner. 
-```
+
 <br>
 
 # QUALITY CONTROL   
